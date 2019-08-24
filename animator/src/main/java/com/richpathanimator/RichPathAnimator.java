@@ -3,13 +3,14 @@ package com.richpathanimator;
 import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ValueAnimator;
-import android.support.annotation.IntDef;
 import android.view.animation.Interpolator;
 
 import com.richpath.RichPath;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.IntDef;
 
 
 public class RichPathAnimator {
