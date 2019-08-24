@@ -54,4 +54,13 @@
         android:onClick="openCompoundViewSamples"
         android:text="@string/compound_view_samples" />
 
+    <Button
+        android:id="@+id/btSeatMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/compoundViewSamplesButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="openSeatMap"
+        android:text="Open Seat Map" />
+
 </RelativeLayout>

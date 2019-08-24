@@ -80,4 +80,8 @@ public class MainActivity extends AppCompatActivity {
     public void openCompoundViewSamples(View view) {
         startActivity(new Intent(this, CompoundViewSamplesActivity.class));
     }
+
+    public void openSeatMap(View view) {
+        startActivity(new Intent(this, SeatMapActivity.class));
+    }
 }

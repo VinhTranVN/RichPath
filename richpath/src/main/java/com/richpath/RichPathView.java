@@ -11,7 +11,6 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
-import android.widget.ImageView;
 
 import com.richpath.model.Vector;
 import com.richpath.pathparser.PathParser;
@@ -25,7 +24,7 @@ import java.io.IOException;
  * Created by tarek on 6/29/17.
  */
 
-public class RichPathView extends ImageView {
+public class RichPathView extends android.support.v7.widget.AppCompatImageView {
 
     private Vector vector;
     private RichPathDrawable richPathDrawable;

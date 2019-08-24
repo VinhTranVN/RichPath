@@ -18,6 +18,7 @@
         </activity>
         <activity android:name="com.richpathanimator.sample.AnimationSamplesActivity" />
         <activity android:name="com.richpathanimator.sample.CompoundViewSamplesActivity" />
+        <activity android:name=".SeatMapActivity" />
     </application>
 
 </manifest>
