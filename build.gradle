@@ -40,6 +40,6 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-import com.richbuild.KoshryTask
-
-task koshry(type: KoshryTask) {}
+//import com.richbuild.KoshryTask
+//
+//task koshry(type: KoshryTask) {}
